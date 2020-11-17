@@ -63,7 +63,7 @@ library
   ghc-options:         -Wall
 
   -- Other library packages from which modules are imported.
-  build-depends:       base ^>=4.13.0.0
+  build-depends:       base >=4.12.0.0
                      , haskell-library
 
   -- Directories containing source files.
@@ -86,7 +86,7 @@ executable haskell-executable
   ghc-options:         -Wall
 
   -- Other library packages from which modules are imported.
-  build-depends:       base ^>=4.13.0.0
+  build-depends:       base >=4.12.0.0
                      , haskell-executable
 
   -- Directories containing source files.
